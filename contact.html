@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#111418" name="theme-color"/>
+<meta content="IOT BETA — robotics, IoT, STEM projects, community, certificates and project shop." name="description"/>
+<meta content="dark" name="color-scheme"/>
+<title>Contact | IOT BETA</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+<div class="container header-inner">
+<a aria-label="IOT BETA home" class="brand" href="index.html"><span class="brand-mark"><svg aria-hidden="true" focusable="false" viewbox="0 0 24 24"><path d="M4 7.5 12 3l8 4.5v9L12 21l-8-4.5z"></path><path d="m4.5 7.8 7.5 4.3 7.5-4.3M12 12.1V21"></path></svg></span><span>IOT <b>BETA</b><small>BUILD · EXPERIMENT · LEARN</small></span></a>
+<button aria-controls="primary-nav" aria-expanded="false" aria-label="Open navigation" class="menu-toggle" type="button"><span></span><span></span></button>
+<nav aria-label="Main navigation" class="navlinks" id="primary-nav"><a href="index.html">Home</a><a href="projects.html">Projects</a><a href="community.html">Community</a><a href="certificates.html">Certificates</a><a href="work.html">My Work</a><a href="shop.html">Shop</a><a href="about.html">About</a><a aria-current="page" href="contact.html">Contact</a></nav>
+</div>
+</header>
+<main id="main"><section class="pagehero"><div class="container"><span class="badge">Get in touch</span><h1>Contact IOT BETA</h1><p class="lead">For community questions, collaborations, project orders, workshops or content opportunities.</p></div></section>
+<section><div class="container grid two"><div class="card"><h2>Contact details</h2><p><strong>Email:</strong> ommatkar4@gmail.com</p><p><strong>Project / business email:</strong> iotbeta8@gmail.com</p><p><strong>Phone / WhatsApp:</strong> 8828151306</p><div class="actions"><a class="btn" href="mailto:iotbeta8@gmail.com">Email IOT BETA</a><a class="btn secondary" href="https://www.youtube.com/@IOTBeta" rel="noopener" target="_blank">YouTube @IOTBeta</a></div></div>
+<div class="card"><h2>Send a request</h2><form onsubmit="return sendMail(event)"><input id="name" placeholder="Your name" required=""/><input id="email" placeholder="Your email" required="" type="email"/><input id="subject" placeholder="Project / collaboration"/><textarea id="message" placeholder="Tell us what you need" required=""></textarea><button class="btn" type="submit">Open Email</button></form><p class="small">This static website opens your email app; it does not store messages on a server.</p></div></div></section>
+<script>
+function sendMail(e){e.preventDefault();const n=document.getElementById('name').value,em=document.getElementById('email').value,s=document.getElementById('subject').value||'IOT BETA enquiry',m=document.getElementById('message').value;location.href='mailto:iotbeta8@gmail.com?subject='+encodeURIComponent(s)+'&body='+encodeURIComponent('Name: '+n+'\nEmail: '+em+'\n\n'+m);return false}
+</script></main>
+<footer class="site-footer"><div class="container footer-inner"><div><a class="footer-brand" href="index.html">IOT <b>BETA</b></a><p>Robotics, connected systems and practical learning.</p></div><div class="footer-meta"><span>Independent project portfolio</span><span>© <span data-year="">2026</span> IOT BETA</span></div></div></footer>
+<script defer="" src="site.js"></script>
+</body></html>
