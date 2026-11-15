@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ut72567.github.io/iot-beta/sitemap.xml
